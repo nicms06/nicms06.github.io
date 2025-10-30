@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entradas</title>
+</head>
+<body>
+    <header>
+        <h1>CodeFest 2025</h1>.
+        <h2>Donde la Música y el Código se encuentran</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/CODEFEST/web/index.html">Inicio</a></li>
+            <li><a href="/CODEFEST/web/cartel.html">Cartel</a></li>
+            <li><a href="/CODEFEST/web/localizacion.html">localización</a></li>
+            <li><a href="/CODEFEST/web/entradas.html">Entradas</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="https://www.w3schools.com/action_page.php.">
+            
+            <fieldset>
+                <legend><h3>Datos Personales</h3></legend>
+                
+                <label for="nombre">Nombre y Apellidos:</label>
+                <input type="text" placeholder="Nombre y Apellidos">
+                <label for="email">Email:</label>
+                <input type="email" required>
+            </fieldset>
+            
+            <fieldset>
+                <legend><h3>Tipo de Entradas</h3></legend>
+                
+                <label>
+                <input type="radio" name="tipo_entrada">
+                Abono General (3 Días)
+                </label><br>
+
+                <label>
+                <input type="radio" name="tipo_entrada">
+                Abono VIP (3 Días)
+                </label><br>
+
+                <label>
+                <input type="radio" name="tipo_entrada">
+                Entrada de Día
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend><h3>Extras</h3></legend>
+                
+                <label>
+                    <input type="checkbox">
+                    Camping
+                </label><br>
+
+                <label>
+                    <input type="checkbox">
+                    Pack Merchandising
+                </label><br>
+
+                <label>
+                    <input type="checkbox">
+                    Acceso a Talleres Tech
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>Día (Solo si es Entrada de Día)</h3></legend>
+                <select name="" id="">
+                    <option value="viernes">Viernes</option>
+                    <option value="sabado">Sábado</option>
+                    <option value="domingo">Domingo</option>
+                </select>
+            </fieldset><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer><p>© 2025 CodeFest. Todos los derechos reservados.</p></footer>
+</body>
+</html>
