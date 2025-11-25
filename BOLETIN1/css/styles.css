@@ -1,0 +1,47 @@
+body{
+    background-color: #B5F4FF;
+}
+h1{
+    font-family: Helvetica ;
+    color: white;
+    margin: 0 auto;
+}
+header{
+    background-color: #007bff;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 5px 5px 7px #002fff;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+}
+#contenido{
+    padding: 20px;
+}
+#contenido h2{
+    font-size: 30px;
+}
+body p{
+    font-family: Montserrat;
+    background-color: #007bff;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 5px 5px 7px #002fff;
+}
+#imagen1{
+    display: block;
+    margin: 0 auto;
+
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px   ;
+}
