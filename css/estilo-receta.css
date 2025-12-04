@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+    font-family: 'Montserrat';
+}
+
+.tarjeta{
+    background-color: #ffff;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    padding: 10px;
+}
+.encabezado{
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+    border-radius: 10px;
+    color: white;
+}
+@media
