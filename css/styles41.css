@@ -1,0 +1,41 @@
+#p1{
+     text-align: right;
+     text-decoration: underline;
+     text-transform: uppercase;
+}
+#p2{
+     font-size: 13px;
+     font-family: sans-serif;
+     font-style: italic;
+
+}
+#p3{
+     font-weight: bold;
+     text-shadow: 8px -3px 8px green;
+     height: 10px;
+}
+#div1{
+     background-color: rgb(196, 192, 145);
+     height: 200px;
+     width: 400px;
+     border-radius: 5%;
+       
+}
+#div2{
+     background-color: rgb(161, 241, 252);
+     height: 200px;
+     width: 400px;
+     border-radius: 5%;
+
+}
+#div3{
+     background-color: rgb(209, 141, 209);
+     height: 200px;
+     width: 400px;
+     border-radius: 5%;
+  
+}
+#caja{
+display: flex;
+
+}

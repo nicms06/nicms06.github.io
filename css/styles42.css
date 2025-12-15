@@ -1,0 +1,44 @@
+#todos{
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+
+}
+
+#c1 {
+    border: 2px solid red;
+    height: 160px;
+    width: 160px;
+    background-image: url('../img/casa.png');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#c2 {
+    border: 2px solid blue;
+    height: 160px;
+    width: 160px;
+       background-image: url('../img/casa.png');
+    background-position: bottom;
+    background-size: 50%;
+    background-repeat: repeat-x;
+}
+#c3 {
+    border: 2px solid green;
+    height: 160px;
+    width: 160px;
+    background-position: right;
+  background-image: url('../img/casa.png');
+  background-size: 50% 50%;
+  background-repeat: repeat-y;
+}
+
+#titulo{
+    text-align: center;
+
+
+}
